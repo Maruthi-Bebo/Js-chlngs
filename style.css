@@ -1,0 +1,61 @@
+.container-1, .container-2, .container-3, .container-4, .container-5{
+    border:1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-container-3,.flex-box-4,
+.flex-box-row-1, .flex-box-row-2, .flex-box-row-3{
+    display: flex;
+    border:1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    
+    align-items: center;
+}
+
+.flex-box-container-2 img{
+    margin:10px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9) ;
+   width:200px;
+
+}
+.flex-box-container-2 img:hover{
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.9);
+}
+
+.flex-box-container-3 img:hover{
+    box-shadow: 0px 10px 40px rgba(37, 50, 233, 1);
+}
+
+.flex-box-row-1, .flex-box-row-2{
+    background:url(img/greenbg.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.flex-box-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+}
+.flex-box-row-2 button{
+    padding: 10px;
+}
+
+.flex-box-row-3 table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#your-box img, #dealer-box img{
+    height: 40%;
+    width:25%;
+    padding: 10px;
+}
